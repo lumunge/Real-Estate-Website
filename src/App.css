@@ -1,0 +1,116 @@
+:root{
+  --primaryColor: #ffff00;
+  --textColor:  #212f3d;
+  --mainTransition: all .3s ease-in-out;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* NAVBAR STYLING */
+nav{
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.nav-links{
+  display: flex;
+  flex-direction: row;
+}
+.logo a{
+  text-decoration: none;
+  color: var(--textColor);
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+.nav-link a{
+  text-decoration: none;
+  padding-right: 1.5rem;
+  color: var(--textColor);
+}
+.action-links a:hover,
+.nav-link a:hover{
+  color: var(--primaryColor);
+  cursor: pointer;
+}
+.action-links a{
+  text-decoration: none;
+  padding-right: 1rem;
+  color: var(--textColor);
+}
+.action-links button{
+  background-color: var(--primaryColor);
+  padding: 15px 40px;
+  border: none;
+  border-radius: 10px;
+}
+.action-links button:hover{
+  cursor: pointer;
+  border: 1px solid var(--primaryColor);
+  background: transparent;
+  transition: var(--mainTransition);
+}
+.toggler{
+  position: absolute;
+  z-index: 3;
+  right: 40px; 
+  top: 40px;
+  cursor: pointer;
+  transition: var(--transitionAll);
+  display: none;
+}
+.btn-line{
+  width: 28px;
+  height: 4px;
+  margin: 0 0 5px 0;
+  background: var(--textColor);
+  transition: var(--mainTransition);
+}
+.close .btn-line:nth-child(1){
+  transform: rotate(45deg) translate(5px, 5px);
+}
+.close .btn-line:nth-child(2){
+  opacity: 0;
+}
+.close .btn-line:nth-child(3){
+  transform: rotate(-45deg) translate(7px ,-8px);
+}
+/* responsive design */
+@media only screen and (max-width: 900px) {
+  nav {
+    background-color: #000;
+    display: flex;
+    justify-content: space-between;
+  }
+  .logo{
+    position: relative;
+    left: 40px;
+    z-index: 3;
+  }
+  .toggler{
+    display: block;
+  }
+  .nav-links{
+    display: none;
+  }
+  .show{
+    position: absolute;
+    top: 100px;
+    padding-top: 3rem;
+    height: calc(100% - 100px);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .show .nav-link{
+    margin-bottom: 1rem;
+  }
+  .action-links{
+    display: none;
+  }
+}
+/* END NAVBAR STYLING */
