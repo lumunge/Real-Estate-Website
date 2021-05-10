@@ -63,7 +63,7 @@ nav{
   display: none;
 }
 .btn-line{
-  width: 28px;
+  width: 40px;
   height: 4px;
   margin: 0 0 5px 0;
   background: var(--textColor);
@@ -78,10 +78,9 @@ nav{
 .close .btn-line:nth-child(3){
   transform: rotate(-45deg) translate(7px ,-8px);
 }
-/* responsive design */
+/* responsive navbar design */
 @media only screen and (max-width: 900px) {
   nav {
-    background-color: #000;
     display: flex;
     justify-content: space-between;
   }
@@ -109,8 +108,24 @@ nav{
   .show .nav-link{
     margin-bottom: 1rem;
   }
+  .show .nav-link a{
+    font-size: 1.2rem;
+  }
   .action-links{
     display: none;
   }
+  .action{
+    position: absolute;
+    bottom: 25%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .action button{
+    width: 60%;
+    margin-top: 1rem;
+  }
 }
+/* end reponsive design */
 /* END NAVBAR STYLING */

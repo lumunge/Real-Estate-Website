@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 
 export default function Navbar() {
 
-    const [menu, setMenu] = useState(false);
+    const [menu, setMenu] = useState(true);
 
     const showMenu = () => {
         setMenu(!menu);
@@ -35,7 +35,7 @@ export default function Navbar() {
                     <a href="#!">Contact Us</a>
                 </div>
             </div>
-            <div className="action-links">
+            <div className={menu ? "action-links" : "action-links action"}>
                 <a href="#!">Join Us</a>
                 <button>Get Started</button>
             </div>
