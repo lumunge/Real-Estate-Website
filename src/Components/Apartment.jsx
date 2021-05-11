@@ -4,7 +4,7 @@ export default function Apartment({image, title, price, bathrooms, bedrooms}) {
     return (
         <div className="single-apartment">
             <div className="apartment-image">
-                <img src={image} alt=""/>
+                <img src={image} alt={title}/>
             </div>
             <div className="apartment-details">
                 <div className="">

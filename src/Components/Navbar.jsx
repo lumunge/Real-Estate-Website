@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import {Link, animateScroll as scroll} from 'react-scroll';
+import {Link} from 'react-scroll';
 
 export default function Navbar() {
 
@@ -21,7 +21,7 @@ export default function Navbar() {
                     <a href="#!">Home</a>
                 </div>
                 <div className="nav-link">
-                    <Link to="about" spy={true} smooth={true} offset={50} duration={2000} delay={500}>About</Link>
+                    <Link to="about" spy={true} smooth={true} duration={2000} delay={500}>About</Link>
                 </div>
                 <div className="nav-link">
                     <a href="#!">Apartments</a>
