@@ -3,6 +3,7 @@
   --textColor:  #212f3d;
   --mainTransition: all .3s ease-in-out;
   --mainBack: #d7dbdd;
+  --mainShadow:rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 *{
   margin: 0;
@@ -217,7 +218,7 @@ nav{
   flex-direction: column;
   background: #fff;
   width: 400px;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  box-shadow: var(--mainShadow);
 }
 .apartment-image{
   width: 400px;
@@ -294,17 +295,25 @@ nav{
 /* END APARTMENTS STYLING */
 
 /* WORKS STYLING */
+.agents,
+.services,
 .works{
   margin: 4rem 4rem;
 }
+.agents-intro,
+.services-intro,
 .works-intro{
   width: 40%;
   padding: 2rem 0;
 }
+.agents-text,
+.services-text,
 .works-text{
   line-height: 1.5rem;
   letter-spacing: 1px;
 }
+.agents-heading,
+.services-heading,
 .works-heading{
   font-size: 3rem;
   font-weight: 500;
@@ -319,7 +328,7 @@ nav{
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  box-shadow: var(--mainShadow);
   margin: 0 1rem;
   padding: 1rem;
   height: 500px;
@@ -349,6 +358,76 @@ nav{
   color: var(--textColor);
 }
 /* END WORKS STYLING */
+
+/* SERVICES STYLING */
+.services-content{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+.services-img{
+  width: 50%;
+}
+.services-img img{
+  width: 700px;
+  height: 750px;
+}
+.service{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 2rem 0;
+  height: 100%;
+  width: 50%;
+}
+.service-heading{
+  font-size: 2.5rem;
+  padding-bottom: 2rem;
+}
+.service-text{
+  line-height: 30px;
+}
+/* END SERVICES STYLING */
+
+/* AGENTS STYLING */
+.agents-container{
+  margin: 4rem 4rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  grid-gap: 1rem;
+}
+.agent{
+ width: 400px;
+ box-shadow: var(--mainShadow);
+}
+.agent-img img{
+  width: 100%;
+}
+.agent-details{
+  padding: 2rem 0;
+  display: flex;
+  justify-content: space-between;
+}
+.agent-title{
+  color: var(--primaryColor);
+  padding: 1rem 1rem;
+  font-size: 1.4rem;
+}
+.agent-name{
+  padding: 1rem 1rem;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+.socials{
+  display: flex;
+  align-items: center;
+}
+.socials i{
+  padding: 0 1rem;
+}
+/* END AGENTS STYLING */
 
 
 /* RESPONSIVE DESIGN */
