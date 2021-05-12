@@ -4,7 +4,7 @@ import landingImage from '../img/landing.webp';
 export default function Header() {
     return (
         <>
-            <div className="header">
+            <div className="header" id="header">
                 <div className="landing-text">
                     <div className="cta">
                         <p>Find Your New Modern Apartment</p>

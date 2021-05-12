@@ -18,7 +18,7 @@ export default function Navbar() {
             </div>
             <div className={menu ? "nav-links" : "nav-links show"}>
                 <div className="nav-link">
-                    <a href="#!">Home</a>
+                    <Link to="header" spy={true} smooth={true} duration={2000} delay={500} onClick={() => showMenu()}>Home</Link>
                 </div>
                 <div className="nav-link">
                     <Link to="about" spy={true} smooth={true} duration={2000} delay={500} onClick={() => showMenu()}>About</Link>
