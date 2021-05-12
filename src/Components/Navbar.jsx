@@ -24,16 +24,16 @@ export default function Navbar() {
                     <Link to="about" spy={true} smooth={true} duration={2000} delay={500}>About</Link>
                 </div>
                 <div className="nav-link">
-                    <a href="#!">Apartments</a>
+                    <Link to="apartments" spy={true} smooth={true} duration={2000} delay={500}>Apartments</Link>
                 </div>
                 <div className="nav-link">
-                    <a href="#!">How It Works</a>
+                    <Link to="works" spy={true} smooth={true} duration={2000} delay={500}>How It Works</Link>
                 </div>
                 <div className="nav-link">
-                    <a href="#!">Agents</a>
+                    <Link to="agents" spy={true} smooth={true} duration={2000} delay={500}>Agents</Link>
                 </div>
                 <div className="nav-link">
-                    <a href="#!">Contact Us</a>
+                    <Link to="contacts" spy={true} smooth={true} duration={2000} delay={500}>Contact Us</Link>
                 </div>
             </div>
             <div className={menu ? "action-links" : "action-links action"}>

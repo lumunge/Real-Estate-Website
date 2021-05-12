@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import Agent from './Agent';
-import agents from './AgentsData';
+import agents from '../Data/AgentsData';
 
 
 export default function Agents() {
@@ -9,7 +9,7 @@ export default function Agents() {
 
 
     return (
-        <div className="agents">
+        <div className="agents" id="agents">
             <div className="agents-intro">
                 <p className="agents-heading">Meet Our Agents</p>
                 <p className="agents-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.

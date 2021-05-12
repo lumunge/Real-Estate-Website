@@ -1,7 +1,7 @@
 
 export default function Works() {
     return (
-        <div className="works">
+        <div className="works" id="works">
             <div className="works-intro">
                 <p className="works-heading">How it works?</p>
                 <p className="works-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.

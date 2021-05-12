@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import apartments from './ApartmentData';
+import apartments from '../Data/ApartmentData';
 import Apartment from './Apartment'
 
 export default function Apartments() {
@@ -8,7 +8,7 @@ export default function Apartments() {
 
 
     return (
-        <div className="main-apartment">
+        <div className="main-apartment" id="apartments">
         <p className="apartment-heading">More Than 500+ <br/> Apartments For Rent</p>
         <div className="apartments-container">
             <div className="apartment-list">
