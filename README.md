@@ -1,70 +1,62 @@
-# Getting Started with Create React App
+### REACT REAL ESTATE WEBSITE
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### ABOUT
+Real Estate React App
 
-## Available Scripts
+### TECHNOLOGIES USED:
+    * HTML5
+    * CSS3
+    * Reactjs 
+    * React Smooth Scroll
 
-In the project directory, you can run:
+### FEATURES
+    * Smooth scrolling
 
-### `npm start`
+### PROJECT SCREENSHOTS
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+![Screenshot_20210512_145647](https://user-images.githubusercontent.com/58906058/117970953-d2134f80-b318-11eb-89aa-132ff35cfe47.png)
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![Screenshot_20210512_145658](https://user-images.githubusercontent.com/58906058/117970966-d5a6d680-b318-11eb-9d57-3022d57a961b.png)
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![Screenshot_20210512_145647](https://user-images.githubusercontent.com/58906058/117971038-ea836a00-b318-11eb-8bc2-947fa7024274.png)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![Screenshot_20210512_145658](https://user-images.githubusercontent.com/58906058/117971048-ece5c400-b318-11eb-856a-afb169683b2c.png)
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+![Screenshot_20210512_145704](https://user-images.githubusercontent.com/58906058/117971057-ef481e00-b318-11eb-8110-f55dd38c340e.png)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+![Screenshot_20210512_145711](https://user-images.githubusercontent.com/58906058/117971065-f0794b00-b318-11eb-96a7-c682f7a04f05.png)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+![Screenshot_20210512_145719](https://user-images.githubusercontent.com/58906058/117971069-f2430e80-b318-11eb-837a-08aff8839627.png)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+![Screenshot_20210512_145728](https://user-images.githubusercontent.com/58906058/117971076-f4a56880-b318-11eb-82b8-674d25170e52.png)
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+![Screenshot_20210512_145735](https://user-images.githubusercontent.com/58906058/117971082-f5d69580-b318-11eb-9f5d-ec50b6d5480a.png)
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+![Screenshot_20210512_145800](https://user-images.githubusercontent.com/58906058/117971090-f7a05900-b318-11eb-89b4-2afbd6ecaa21.png)
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+![Screenshot_20210512_145806](https://user-images.githubusercontent.com/58906058/117971096-f96a1c80-b318-11eb-8692-b454dc73da22.png)
+ 
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### HOSTED @
 
-### Deployment
+Coming Soon
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+### SETUP
+    * git clone https://github.com/lumungep12/Real-Estate-App.git
+    * npm i 
+    * npm start
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
