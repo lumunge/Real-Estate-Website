@@ -21,19 +21,19 @@ export default function Navbar() {
                     <a href="#!">Home</a>
                 </div>
                 <div className="nav-link">
-                    <Link to="about" spy={true} smooth={true} duration={2000} delay={500}>About</Link>
+                    <Link to="about" spy={true} smooth={true} duration={2000} delay={500} onClick={() => showMenu()}>About</Link>
                 </div>
                 <div className="nav-link">
-                    <Link to="apartments" spy={true} smooth={true} duration={2000} delay={500}>Apartments</Link>
+                    <Link to="apartments" spy={true} smooth={true} duration={2000} delay={500} onClick={() => showMenu()}>Apartments</Link>
                 </div>
                 <div className="nav-link">
-                    <Link to="works" spy={true} smooth={true} duration={2000} delay={500}>How It Works</Link>
+                    <Link to="works" spy={true} smooth={true} duration={2000} delay={500} onClick={() => showMenu()}>How It Works</Link>
                 </div>
                 <div className="nav-link">
-                    <Link to="agents" spy={true} smooth={true} duration={2000} delay={500}>Agents</Link>
+                    <Link to="agents" spy={true} smooth={true} duration={2000} delay={500} onClick={() => showMenu()}>Agents</Link>
                 </div>
                 <div className="nav-link">
-                    <Link to="contacts" spy={true} smooth={true} duration={2000} delay={500}>Contact Us</Link>
+                    <Link to="contacts" spy={true} smooth={true} duration={2000} delay={500} onClick={() => showMenu()}>Contact Us</Link>
                 </div>
             </div>
             <div className={menu ? "action-links" : "action-links action"}>

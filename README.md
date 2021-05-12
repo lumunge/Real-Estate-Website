@@ -1,7 +1,7 @@
 ### REACT REAL ESTATE WEBSITE
 
 ### ABOUT
-Real Estate React App
+Real-Estate React App
 
 ### TECHNOLOGIES USED:
     * HTML5
@@ -11,6 +11,7 @@ Real Estate React App
 
 ### FEATURES
     * Smooth scrolling
+    * Fully Responsive Design
 
 ### PROJECT SCREENSHOTS
 

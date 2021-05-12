@@ -5,11 +5,11 @@ export default function Footer() {
         <div className="footer" id="contacts">
             <header>
                 <div>
-                    <p className="footer-heading">Realestate <br/>Get To Know RealEstate</p>
+                    <p className="footer-heading">Realestate <br/>Subscribe To Our Newsletter</p>
                 </div>
                 <div>
                     <div className="newsletter">
-                        <input type="text" placeholder="Subscribe To Our Newsletter" />
+                        <input type="text" placeholder="Your Email Address" />
                         <button><i class="fa fa-long-arrow-right" aria-hidden="true"></i></button>
                     </div>
                 </div>

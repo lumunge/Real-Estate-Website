@@ -13,12 +13,6 @@ function App() {
   return (
     <>
       <Navbar/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
       <Header/>
       <About/>
       <Apartments/>
