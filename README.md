@@ -21,6 +21,9 @@ Real Estate React App
 ![Screenshot_20210512_145647](https://user-images.githubusercontent.com/58906058/117971038-ea836a00-b318-11eb-8bc2-947fa7024274.png)
 
 
+![Screenshot_20210512_145658](https://user-images.githubusercontent.com/58906058/117971048-ece5c400-b318-11eb-856a-afb169683b2c.png)
+
+
 ![Screenshot_20210512_145704](https://user-images.githubusercontent.com/58906058/117971057-ef481e00-b318-11eb-8110-f55dd38c340e.png)
 
 
