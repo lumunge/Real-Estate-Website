@@ -46,7 +46,8 @@ Real-Estate React App
 
 ### HOSTED @
 
-Coming Soon
+[Real-Estate-Website](https://lumungep12.github.io/Real-Estate-App/)
+
 
 ### SETUP
     * git clone https://github.com/lumungep12/Real-Estate-App.git
