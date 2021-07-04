@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Real-Estate-App/static/css/main.78f54c63.chunk.css",
-    "main.js": "/Real-Estate-App/static/js/main.e6c46a5b.chunk.js",
-    "main.js.map": "/Real-Estate-App/static/js/main.e6c46a5b.chunk.js.map",
+    "main.js": "/Real-Estate-App/static/js/main.edddee2c.chunk.js",
+    "main.js.map": "/Real-Estate-App/static/js/main.edddee2c.chunk.js.map",
     "runtime-main.js": "/Real-Estate-App/static/js/runtime-main.67c5b2cb.js",
     "runtime-main.js.map": "/Real-Estate-App/static/js/runtime-main.67c5b2cb.js.map",
     "static/js/2.41cde787.chunk.js": "/Real-Estate-App/static/js/2.41cde787.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.67c5b2cb.js",
     "static/js/2.41cde787.chunk.js",
     "static/css/main.78f54c63.chunk.css",
-    "static/js/main.e6c46a5b.chunk.js"
+    "static/js/main.edddee2c.chunk.js"
   ]
 }
