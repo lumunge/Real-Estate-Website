@@ -1,5 +1,5 @@
-const formatCurrency = (curr) => {
-    return "Ksh " + Number(curr.toFixed(2)).toLocaleString() + " ";
-}
+const formatCurrency = (currency) => {
+	return "Ksh " + Number(currency.toFixed(2)).toLocaleString() + " ";
+};
 
 export default formatCurrency;

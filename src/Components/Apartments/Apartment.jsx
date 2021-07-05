@@ -1,4 +1,4 @@
-import formatCurrency from '../utils';
+import formatCurrency from '../../utils';
 
 export default function Apartment({image, title, price, bathrooms, bedrooms}) {
     return (

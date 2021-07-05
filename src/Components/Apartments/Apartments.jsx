@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import apartments from '../Data/ApartmentData';
+import apartments from '../../Data/ApartmentData';
 import Apartment from './Apartment'
 
 export default function Apartments() {
