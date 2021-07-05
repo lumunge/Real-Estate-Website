@@ -18,7 +18,7 @@ export default function Footer() {
             <footer>
                 <div className="logo-section">
                     <p className="copy-heading">realestate</p>
-                    <p className="copyright">@2021-realestate, <br/>All Rights Reserved</p>
+                    <p className="copyright">created by <a href="https://github.com/lumunge">lumunge</a></p>
                 </div>
                 <div className="footer-links">
                     <div>
