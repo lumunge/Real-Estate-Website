@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import Agent from './Agent';
-import agents from '../Data/AgentsData';
+import agents from '../../Data/AgentsData'
 
 
 export default function Agents() {
