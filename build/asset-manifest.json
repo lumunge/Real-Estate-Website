@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/Real-Estate-App/static/css/main.78f54c63.chunk.css",
-    "main.js": "/Real-Estate-App/static/js/main.edddee2c.chunk.js",
-    "main.js.map": "/Real-Estate-App/static/js/main.edddee2c.chunk.js.map",
-    "runtime-main.js": "/Real-Estate-App/static/js/runtime-main.67c5b2cb.js",
-    "runtime-main.js.map": "/Real-Estate-App/static/js/runtime-main.67c5b2cb.js.map",
-    "static/js/2.41cde787.chunk.js": "/Real-Estate-App/static/js/2.41cde787.chunk.js",
-    "static/js/2.41cde787.chunk.js.map": "/Real-Estate-App/static/js/2.41cde787.chunk.js.map",
-    "index.html": "/Real-Estate-App/index.html",
-    "static/css/main.78f54c63.chunk.css.map": "/Real-Estate-App/static/css/main.78f54c63.chunk.css.map",
-    "static/js/2.41cde787.chunk.js.LICENSE.txt": "/Real-Estate-App/static/js/2.41cde787.chunk.js.LICENSE.txt",
-    "static/media/landing.e879410c.webp": "/Real-Estate-App/static/media/landing.e879410c.webp",
-    "static/media/services.bc70d2a8.jpeg": "/Real-Estate-App/static/media/services.bc70d2a8.jpeg"
+    "main.css": "/Evero-Investments/static/css/main.78f54c63.chunk.css",
+    "main.js": "/Evero-Investments/static/js/main.edddee2c.chunk.js",
+    "main.js.map": "/Evero-Investments/static/js/main.edddee2c.chunk.js.map",
+    "runtime-main.js": "/Evero-Investments/static/js/runtime-main.7f0f0b2e.js",
+    "runtime-main.js.map": "/Evero-Investments/static/js/runtime-main.7f0f0b2e.js.map",
+    "static/js/2.41cde787.chunk.js": "/Evero-Investments/static/js/2.41cde787.chunk.js",
+    "static/js/2.41cde787.chunk.js.map": "/Evero-Investments/static/js/2.41cde787.chunk.js.map",
+    "index.html": "/Evero-Investments/index.html",
+    "static/css/main.78f54c63.chunk.css.map": "/Evero-Investments/static/css/main.78f54c63.chunk.css.map",
+    "static/js/2.41cde787.chunk.js.LICENSE.txt": "/Evero-Investments/static/js/2.41cde787.chunk.js.LICENSE.txt",
+    "static/media/landing.e879410c.webp": "/Evero-Investments/static/media/landing.e879410c.webp",
+    "static/media/services.bc70d2a8.jpeg": "/Evero-Investments/static/media/services.bc70d2a8.jpeg"
   },
   "entrypoints": [
-    "static/js/runtime-main.67c5b2cb.js",
+    "static/js/runtime-main.7f0f0b2e.js",
     "static/js/2.41cde787.chunk.js",
     "static/css/main.78f54c63.chunk.css",
     "static/js/main.edddee2c.chunk.js"
