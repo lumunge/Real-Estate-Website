@@ -42,6 +42,6 @@ Real-Estate React App
 
 ### SETUP
 
-    * git clone https://github.com/lumungep12/Real-Estate-App.git
+    * git clone https://github.com/lumunge/Real-Estate-Website.git
     * npm i
     * npm start
