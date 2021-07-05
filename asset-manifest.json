@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/Evero-Investments/static/css/main.78f54c63.chunk.css",
-    "main.js": "/Evero-Investments/static/js/main.edddee2c.chunk.js",
-    "main.js.map": "/Evero-Investments/static/js/main.edddee2c.chunk.js.map",
-    "runtime-main.js": "/Evero-Investments/static/js/runtime-main.7f0f0b2e.js",
-    "runtime-main.js.map": "/Evero-Investments/static/js/runtime-main.7f0f0b2e.js.map",
-    "static/js/2.41cde787.chunk.js": "/Evero-Investments/static/js/2.41cde787.chunk.js",
-    "static/js/2.41cde787.chunk.js.map": "/Evero-Investments/static/js/2.41cde787.chunk.js.map",
-    "index.html": "/Evero-Investments/index.html",
-    "static/css/main.78f54c63.chunk.css.map": "/Evero-Investments/static/css/main.78f54c63.chunk.css.map",
-    "static/js/2.41cde787.chunk.js.LICENSE.txt": "/Evero-Investments/static/js/2.41cde787.chunk.js.LICENSE.txt",
-    "static/media/landing.e879410c.webp": "/Evero-Investments/static/media/landing.e879410c.webp",
-    "static/media/services.bc70d2a8.jpeg": "/Evero-Investments/static/media/services.bc70d2a8.jpeg"
+    "main.css": "/Real-Estate-Website/static/css/main.78f54c63.chunk.css",
+    "main.js": "/Real-Estate-Website/static/js/main.edddee2c.chunk.js",
+    "main.js.map": "/Real-Estate-Website/static/js/main.edddee2c.chunk.js.map",
+    "runtime-main.js": "/Real-Estate-Website/static/js/runtime-main.b1b4a994.js",
+    "runtime-main.js.map": "/Real-Estate-Website/static/js/runtime-main.b1b4a994.js.map",
+    "static/js/2.41cde787.chunk.js": "/Real-Estate-Website/static/js/2.41cde787.chunk.js",
+    "static/js/2.41cde787.chunk.js.map": "/Real-Estate-Website/static/js/2.41cde787.chunk.js.map",
+    "index.html": "/Real-Estate-Website/index.html",
+    "static/css/main.78f54c63.chunk.css.map": "/Real-Estate-Website/static/css/main.78f54c63.chunk.css.map",
+    "static/js/2.41cde787.chunk.js.LICENSE.txt": "/Real-Estate-Website/static/js/2.41cde787.chunk.js.LICENSE.txt",
+    "static/media/landing.e879410c.webp": "/Real-Estate-Website/static/media/landing.e879410c.webp",
+    "static/media/services.bc70d2a8.jpeg": "/Real-Estate-Website/static/media/services.bc70d2a8.jpeg"
   },
   "entrypoints": [
-    "static/js/runtime-main.7f0f0b2e.js",
+    "static/js/runtime-main.b1b4a994.js",
     "static/js/2.41cde787.chunk.js",
     "static/css/main.78f54c63.chunk.css",
     "static/js/main.edddee2c.chunk.js"
