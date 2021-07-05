@@ -228,6 +228,21 @@ nav {
 	width: 400px;
 	box-shadow: var(--mainShadow);
 }
+.checkoutBtn {
+	margin-top: 2rem;
+	width: 40%;
+	padding: 5px 15px;
+	background-color: transparent;
+	border: 0.5px solid #000;
+	text-transform: uppercase;
+}
+.checkoutBtn:hover {
+	transition: all 0.4s ease-in-out;
+	background-color: var(--primaryColor);
+	cursor: pointer;
+	color: #000;
+	border: none;
+}
 .apartment-image {
 	width: 400px;
 	height: 400px;

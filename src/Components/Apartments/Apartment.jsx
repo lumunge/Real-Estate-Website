@@ -35,7 +35,9 @@ export default function Apartment({
 						</p>
 					</div>
 				</div>
+				<button class="checkoutBtn">Check Out</button>
 			</div>
+			
 		</div>
 	);
 }
