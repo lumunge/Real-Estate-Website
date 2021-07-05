@@ -1,5 +1,5 @@
 import React from "react";
-import landingImage from "../../img/landing.webp";
+import landingImage from "../../img/landing.jpg";
 
 export default function Header() {
 	return (
