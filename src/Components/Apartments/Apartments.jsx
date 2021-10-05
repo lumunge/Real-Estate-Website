@@ -29,7 +29,7 @@ export default function Apartments() {
 					<input type="text" placeholder="Search Location " />
 					<button>Search</button>
 				</div>
-				<div>
+				<div  className="viewButton">
 					<button className="apartment-btn">
 						View All Apartments
 					</button>

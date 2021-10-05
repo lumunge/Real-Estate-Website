@@ -160,7 +160,6 @@ nav {
 }
 .company {
 	width: 50%;
-	margin-right: 2rem;
 }
 .company .heading {
 	font-size: 4rem;
@@ -172,6 +171,7 @@ nav {
 .stats {
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
+	justify-content: center;
 	grid-gap: 1rem;
 	width: 50%;
 }
@@ -682,20 +682,13 @@ footer {
 		flex-direction: column;
 		justify-content: center;
 	}
-	.apartment-list {
-		display: grid;
-		grid-template-columns: repeat(2, 1fr);
-	}
 	.apartment-footer {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
 	}
 	.apartment-btn {
-		margin: 0 2rem 1rem 0;
-	}
-	.search-location {
-		width: 100%;
+		margin: 0;
 	}
 	.works-cards {
 		display: flex;
@@ -710,6 +703,7 @@ footer {
 		width: 100%;
 		text-align: center;
 	}
+
 	.services-intro {
 		margin-bottom: 4rem;
 	}
@@ -755,19 +749,33 @@ footer {
 
 @media only screen and (max-width: 900px) {
 	/* header responsive design */
+	.header {
+		margin: 0 1rem;
+		padding: 0;
+	}
+	.cta p {
+		font-size: 2.5rem;
+	}
 	.contact-info > div i {
 		display: none;
 	}
 	.search-bar {
 		display: flex;
 		width: 150%;
-		height: 70px;
+		height: 40px;
 	}
 	.search-bar input {
 		width: 60%;
 	}
+	.contact-info {
+		height: 60px;
+	}
 	.search-bar button {
 		width: 40%;
+	}
+	.landing-image img {
+		width: 100%;
+		height: 100%;
 	}
 	/* end header styling */
 
@@ -777,6 +785,10 @@ footer {
 		flex-direction: column;
 		align-items: center;
 		margin: 4rem 0;
+	}
+	.company {
+		width: 100%;
+		padding: 0 1rem;
 	}
 	.company p {
 		text-align: center;
@@ -792,22 +804,41 @@ footer {
 		align-items: center;
 		margin-top: 2rem;
 	}
+	.apartments-container {
+		display: grid;
+		grid-template-columns: repeat(1, 1fr);
+		align-items: center;
+		justify-content: center;
+		width: 100%;
+	}
 	.apartment-list {
 		display: grid;
 		grid-template-columns: repeat(1, 1fr);
+		width: 100%;
+	}
+	.apartment-image {
+		width: 70%;
+		height: 70%;
 	}
 	.apartment-heading {
 		padding: 2rem 0;
-		font-size: 2.5rem;
+		font-size: 2rem;
 		text-align: center;
 	}
+	.single-apartment {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		width: 70%;
+		margin: 0 auto;
+	}
 	.works-cards .card {
-		/* height: 500px; */
 		width: 100%;
 	}
 	.search-location {
 		width: 150%;
-		margin-left: 3rem;
+		height: 40px;
 	}
 	.services-content {
 		display: flex;

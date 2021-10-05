@@ -2,7 +2,7 @@ import React from "react";
 import landingImage from "../../img/landing.jpg";
 
 export default function Header() {
-	return (
+	return ( 
 		<>
 			<div className="header" id="header">
 				<div className="landing-text">
