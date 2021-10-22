@@ -12,7 +12,7 @@
 }
 html,
 body {
-	overflow-x: hidden !important;
+	overflow-x: hidden;
 }
 
 /* NAVBAR STYLING */
@@ -27,7 +27,7 @@ nav {
 	z-index: 9999;
 	padding: 0 4rem;
 	background-color: #fff;
-	overflow-x: hidden;
+	/* overflow-x: hidden; */
 }
 .nav-links {
 	display: flex;
@@ -619,6 +619,8 @@ footer {
 	nav {
 		display: flex;
 		justify-content: center;
+		width: 100%;
+		/* overflow-x: hidden; */
 	}
 	.logo {
 		position: absolute;
@@ -643,6 +645,7 @@ footer {
 		align-items: center;
 		height: 100vh;
 		padding-top: 2rem;
+		overflow-x: hidden;
 	}
 	.show .nav-link {
 		margin-bottom: 1rem;
