@@ -11,7 +11,7 @@ export default function Navbar() {
 	return (
 		<nav>
 			<div className="logo">
-				<a href="#!">realstate</a>
+				<a href="#!">evero realtors</a>
 			</div>
 			<div className={menu ? "nav-links" : "nav-links show"}>
 				<div className="nav-link">

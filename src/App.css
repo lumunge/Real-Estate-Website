@@ -27,6 +27,7 @@ nav {
 	z-index: 9999;
 	padding: 0 4rem;
 	background-color: #fff;
+	overflow-x: hidden;
 }
 .nav-links {
 	display: flex;
