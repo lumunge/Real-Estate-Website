@@ -395,10 +395,14 @@ nav {
 }
 .services-img {
 	width: 50%;
-}
-.services-img img {
 	width: 700px;
 	height: 750px;
+	margin-right: 2rem;
+}
+.services-img img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
 }
 .service {
 	display: flex;
@@ -511,7 +515,6 @@ nav {
 }
 .text {
 	line-height: 25px;
-	/* padding-bottom: 2rem; */
 }
 /* END ADVERTISEMENTS STYLING */
 
@@ -581,7 +584,6 @@ footer {
 	flex-direction: column;
 }
 .footer-links p {
-	padding-bottom: 2rem;
 	text-transform: uppercase;
 	color: #808b96;
 }
@@ -597,6 +599,8 @@ footer {
 .copyright {
 	line-height: 25px;
 	letter-spacing: 2px;
+	text-align: center;
+	padding-bottom: 1rem;
 }
 .copyright a {
 	color: #fff;
@@ -686,6 +690,8 @@ footer {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
+		justify-content: center;
+		width: 100%;
 	}
 	.apartment-btn {
 		margin: 0;
@@ -709,12 +715,16 @@ footer {
 	}
 	.services-img img {
 		width: 100%;
-		padding-right: 2rem;
+		/* padding-right: 2rem; */
 	}
 	.agents-container {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
+	}
+	.checkoutBtn {
+		padding: 5px 10px;
+		text-transform: lowercase;
 	}
 	.footer {
 		height: 100%;
@@ -804,6 +814,7 @@ footer {
 		align-items: center;
 		margin-top: 2rem;
 	}
+	/* responsive apartments */
 	.apartments-container {
 		display: grid;
 		grid-template-columns: repeat(1, 1fr);
@@ -830,16 +841,32 @@ footer {
 		flex-direction: column;
 		align-items: center;
 		justify-content: center;
-		width: 70%;
+		width: 90%;
 		margin: 0 auto;
+	}
+	.detail {
+		font-size: 10px;
+		text-transform: lowercase;
+	}
+	.price {
+		padding-right: 10px;
+	}
+	.search-location {
+		width: 180%;
+		height: 40px;
 	}
 	.works-cards .card {
 		width: 100%;
 	}
-	.search-location {
-		width: 150%;
-		height: 40px;
+	.works {
+		margin: 4rem 1rem;
 	}
+	.numbers {
+		position: absolute;
+		padding-left: 1.3rem;
+		font-size: 4rem !important;
+	}
+	/* responsive services */
 	.services-content {
 		display: flex;
 		flex-direction: column;
@@ -848,15 +875,50 @@ footer {
 	}
 	.services-img {
 		width: 100%;
+		margin: 0 2rem;
+		width: 300px;
+		height: 400px;
 	}
 	.services-img img {
 		width: 100%;
 	}
+	.services {
+		margin: 4rem 1rem;
+	}
+	.service {
+		padding: 1rem;
+		height: 100%;
+		width: 100%;
+	}
+	.service-heading {
+		font-size: 2.5rem;
+		padding: 1rem;
+	}
+	/* responsive agents */
+	.agents {
+		margin: 4rem 2rem;
+	}
 	.agents-intro,
 	.services-intro {
 		width: 100%;
-		text-align: center;
+		text-align: left;
 	}
+	.agents-intro {
+		padding: 0;
+		margin: 0;
+	}
+	.agents-container {
+		margin: 4rem 2rem;
+	}
+	.agent {
+		width: 300px;
+		box-shadow: var(--mainShadow);
+	}
+	.agent-details {
+		display: flex;
+		flex-direction: column;
+	}
+	/* responsive adverts */
 	.advert {
 		display: flex;
 		flex-direction: column;
@@ -870,27 +932,45 @@ footer {
 		margin-bottom: 12rem;
 	}
 	.adImage {
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		text-align: center;
+		width: 100%;
+	}
+	.adImage img {
 		padding: 0;
 		width: 100%;
 	}
 	.advert-details {
-		margin-top: 4rem;
+		margin: 4rem 0;
 		height: 100%;
 		width: 100%;
 	}
+	.advert:nth-child(2n) .text,
+	.advert:nth-child(2n) .advertTitle {
+		padding: 0;
+	}
 	.advertTitle {
 		color: var(--primaryColor);
+		font-size: 2rem;
 	}
+	.apartment-location {
+		width: 120%;
+		padding: 1rem;
+		font-size: 1rem;
+	}
+	.apartment-location i {
+		font-size: 1rem;
+	}
+	/* responsive footer */
 	.footer {
 		margin-top: 10rem;
 		width: 100%;
 	}
+	.footer-heading {
+		font-size: 2rem;
+		padding-top: 1rem;
+	}
 	.newsletter {
 		width: 100%;
+		height: 50px;
 	}
 	.logo-section,
 	.footer header,

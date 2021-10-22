@@ -12,7 +12,7 @@ export default function Works() {
 			</div>
 			<div className="works-cards">
 				<div className="card">
-					<h1>01</h1>
+					<h1 className="numbers">01</h1>
 					<p className="instructions">01 Find Your Location</p>
 					<p className="work-text">
 						Lorem ipsum dolor sit amet consectetur, adipisicing
@@ -22,7 +22,7 @@ export default function Works() {
 					<a href="#!">Find Location</a>
 				</div>
 				<div className="card">
-					<h1>02</h1>
+					<h1 className="numbers">02</h1>
 					<p className="instructions">02 Find Apartment</p>
 					<p className="work-text">
 						Lorem ipsum dolor sit amet consectetur, adipisicing
@@ -32,7 +32,7 @@ export default function Works() {
 					<a href="#!">Find Apartment</a>
 				</div>
 				<div className="card">
-					<h1>03</h1>
+					<h1 className="numbers">03</h1>
 					<p className="instructions">03 Make Contact</p>
 					<p className="work-text">
 						Lorem ipsum dolor sit amet consectetur, adipisicing

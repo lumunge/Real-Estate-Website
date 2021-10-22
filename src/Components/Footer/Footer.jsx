@@ -24,10 +24,6 @@ export default function Footer() {
 			<footer>
 				<div className="logo-section">
 					<p className="copy-heading">realestate</p>
-					<p className="copyright">
-						created by{" "}
-						<a href="https://github.com/lumunge">lumunge</a>
-					</p>
 				</div>
 				<div className="footer-links">
 					<div>
@@ -62,6 +58,10 @@ export default function Footer() {
 						</div>
 					</div>
 				</div>
+				<p className="copyright">
+						&copy; 2021 - created by{" "}
+						<a href="https://github.com/lumunge" target="_blank" rel="noreferrer">lumunge</a>
+					</p>
 			</footer>
 		</div>
 	);
